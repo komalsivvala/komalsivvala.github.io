@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://komalsivvala.github.io/sitemap.xml

@@ -3,23 +3,65 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Portfolio</title>
+<title>Sivvala Komal Naidu, Java full stack developer</title>
 <meta name="description" content="Portfolio of Sivvala Komal Naidu, Java full stack developer (Spring Boot, Kafka, Elasticsearch, React).">
+<meta name="author" content="Sivvala Komal Naidu">
 <meta name="theme-color" content="#F2EDE2" media="(prefers-color-scheme: light)">
 <meta name="theme-color" content="#171613" media="(prefers-color-scheme: dark)">
-<link rel="icon" href="favicon.svg" type="image/svg+xml">
-<!-- Share preview. When the site is hosted, make og:image an absolute URL (https://your-site/share.png). -->
+<link rel="icon" href="favicon.svg" type="image/svg+xml" sizes="any">
+<link rel="icon" href="favicon-32.png" type="image/png" sizes="32x32">
+<link rel="apple-touch-icon" href="apple-touch-icon.png">
+<!-- Share preview. Hosted at https://komalsivvala.github.io/ since 2026-11-08; og:image and og:url must stay absolute. -->
+<link rel="canonical" href="https://komalsivvala.github.io/">
 <meta property="og:type" content="website">
+<meta property="og:url" content="https://komalsivvala.github.io/">
 <meta property="og:title" content="Sivvala Komal Naidu, Java full stack developer">
 <meta property="og:description" content="I build production REST APIs and backend services in Java and Spring Boot, with Kafka, Elasticsearch and Cassandra behind them and React in front.">
-<meta property="og:image" content="share.png">
+<meta property="og:image" content="https://komalsivvala.github.io/share.jpg">
+<meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Shippori+Mincho:wght@500;600;800&family=Zen+Kaku+Gothic+New:wght@400;500&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    { "@type": "WebSite", "@id": "https://komalsivvala.github.io/#site", "url": "https://komalsivvala.github.io/",
+      "name": "Sivvala Komal Naidu", "inLanguage": "en" },
+    { "@type": "Person", "@id": "https://komalsivvala.github.io/#me", "name": "Sivvala Komal Naidu",
+      "jobTitle": "Java full stack developer", "url": "https://komalsivvala.github.io/",
+      "email": "mailto:sivvalakomalnaidu@gmail.com",
+      "sameAs": ["https://github.com/komalsivvala", "https://www.linkedin.com/in/sivvalakomalnaidu"],
+      "address": { "@type": "PostalAddress", "addressLocality": "Visakhapatnam", "addressCountry": "IN" },
+      "worksFor": { "@type": "Organization", "name": "Vensai Technologies" },
+      "alumniOf": { "@type": "CollegeOrUniversity", "name": "Anil Neerukonda Institute of Technology and Sciences" },
+      "knowsAbout": ["Java", "Spring Boot", "REST APIs", "Apache Kafka", "Elasticsearch", "Apache Cassandra", "PostgreSQL", "MongoDB", "React", "Docker", "Kubernetes"] }
+  ]
+}
+</script>
+<!-- Type: the site's own subsets of Shippori Mincho and Zen Kaku Gothic New (OFL; made by tool/fonts.py). The faces the first
+     screen needs are preloaded when the page is served over http(s); opened from disk, a font preload is refused by Chrome's
+     file-origin rule, so the hints are skipped there and the fonts simply load through @font-face. -->
+<script>
+if (/^https?:$/.test(location.protocol)) for (const f of ["shippori-mincho-800", "shippori-mincho-600", "zen-kaku-gothic-new-400"]) {
+  const l = document.createElement("link"); l.rel = "preload"; l.as = "font"; l.type = "font/woff2"; l.crossOrigin = "anonymous"; l.href = "fonts/" + f + ".woff2"; document.head.appendChild(l); }
+</script>
+<!-- The count: Umami Cloud (free Hobby plan; no cookies, no personal data; the dashboard is at cloud.umami.is). The
+     script is async so a slow or blocked cloud.umami.is never holds the page back. data-domains keeps copies opened
+     from disk, local servers and the tools out of the numbers. The search and the hash are not recorded; the ?from=
+     tag on a shared link is sent as an event by the Count module below and then taken off the address. Opening the
+     site once with "?me" marks this browser as the owner's and it is left out from then on; "?me=off" undoes that. -->
+<script>
+(function () { const m = /[?&]me(?:=([^&]*))?(?:&|$)/.exec(location.search); if (!m) return;
+  try { if (m[1] === "off") localStorage.removeItem("umami.disabled"); else localStorage.setItem("umami.disabled", "1"); } catch (e) {} })();
+</script>
+<script async src="https://cloud.umami.is/script.js" data-website-id="fc6ae261-0a67-4f9f-8a03-d5dcc7265d38" data-domains="komalsivvala.github.io" data-exclude-search="true" data-exclude-hash="true"></script>
 <style>
+@font-face { font-family: "Shippori Mincho"; font-weight: 500; font-style: normal; font-display: swap; src: url("fonts/shippori-mincho-500.woff2") format("woff2"); }
+@font-face { font-family: "Shippori Mincho"; font-weight: 600; font-style: normal; font-display: swap; src: url("fonts/shippori-mincho-600.woff2") format("woff2"); }
+@font-face { font-family: "Shippori Mincho"; font-weight: 800; font-style: normal; font-display: swap; src: url("fonts/shippori-mincho-800.woff2") format("woff2"); }
+@font-face { font-family: "Zen Kaku Gothic New"; font-weight: 400; font-style: normal; font-display: swap; src: url("fonts/zen-kaku-gothic-new-400.woff2") format("woff2"); }
+@font-face { font-family: "Zen Kaku Gothic New"; font-weight: 500; font-style: normal; font-display: swap; src: url("fonts/zen-kaku-gothic-new-500.woff2") format("woff2"); }
 :root {
   --bg: #F2EDE2; --surface: #FAF7F0; --ink: #1E1B17; --muted: #5C564D; --line: #DCD3C2;
   --primary: #234A73; --on-primary: #FFFFFF; --shu: #B8361E; --on-shu: #F2EDE2; --scrim: rgba(30, 27, 23, 0.45);
@@ -358,6 +400,7 @@ dialog.sheet.closing::backdrop { animation: fade 200ms reverse forwards; }
 footer { border-top: 1px solid var(--line); padding: 28px 0 40px; color: var(--muted); font-size: 0.875rem;
          display: flex; justify-content: space-between; gap: 16px 32px; flex-wrap: wrap; position: relative; z-index: 1; }
 footer .note { max-width: 46ch; }
+footer #updated::before { content: " ・ "; }
 
 /* The ink drop that trails the real pointer (never replaces it) */
 .drop { position: fixed; left: 0; top: 0; width: 10px; height: 10px; margin: -5px 0 0 -5px; border-radius: 50%; background: var(--ink);
@@ -375,6 +418,52 @@ footer .note { max-width: 46ch; }
   .piece svg, .piece img, .piece .no::after, .btn, .win { transition: none; } .piece:hover .img svg, .piece:hover .img img { transform: none; }
   .tsukubai .trickle, .ripple.go ellipse { animation: none; } .sozu { transition: none; transform: none !important; }
   .house-dusk .glow { transition: none; } .furin, .house-dusk .glow { animation: none !important; }
+}
+/* Print (Ctrl+P, or Save as PDF): the walk folds into a plain resume in reading order (name, about, work, why).
+   The painting, drawings, stones, sound switch and dialog stay on the screen. Nothing here has the phone number. */
+.print-only, .print-cs { display: none; }
+@media print {
+  @page { margin: 16mm 18mm; }
+  :root { --bg: #fff; --surface: #fff; --ink: #000; --muted: #444; --line: #bbb; --shu: #B8361E; --draw: #000; --bg-rgb: 255, 255, 255; color-scheme: light; }
+  html { scroll-behavior: auto; }
+  body { background: #fff; color: #000; font: 400 10.5pt/1.5 var(--sans); }
+  * { opacity: 1 !important; transform: none !important; clip-path: none !important; filter: none !important; transition: none !important; animation: none !important; }
+  .paint, .top, .hint, .intro, .path, .enso, .cue, .drop, .coping-slot, .sill-slot, .pine-slot, .tsukubai, .house .roof, .house .floor,
+  .house .beam, .house .ranma, .house .room::before, .house .room::after, .house-dusk, .win, .avail, .motto, .motto-en, .sec .num, .sec .jp,
+  .ichigo .jp, .principle .pjp, .piece .no::after, .t::before, .sec::before, #contact, footer, dialog.sheet { display: none !important; }
+  .print-only, .print-cs { display: block; }
+  main { z-index: auto; }
+  .wrap { max-width: none; padding: 0; }
+  .hero { min-height: 0; display: block; overflow: visible; }
+  .hero-in { display: block; padding: 0; }
+  .hero h1 { font-size: 24pt; line-height: 1.15; }
+  .hero .role { margin: 4pt 0 0; font-size: 12pt; }
+  .hero .intro-line { margin: 8pt 0 0; font-size: 11.5pt; max-width: none; }
+  #print-contact { margin: 8pt 0 0; font-size: 10pt; color: var(--muted); }
+  .walk { display: flex; flex-direction: column; overflow: visible; }
+  #about { order: 1; } #work { order: 2; } #why { order: 3; }
+  .section, #work { padding: 16pt 0 0; }
+  .sec { display: block; margin: 0 0 8pt; padding-bottom: 4pt; border-bottom: 1px solid var(--line); }
+  .sec .en { font-size: 15pt; }
+  .house .room { margin: 0; }
+  .about { display: block; padding: 0; }
+  .about p { max-width: none; } .about p:first-child { font-size: 11pt; }
+  .skills div { grid-template-columns: 9rem 1fr; padding: 4pt 0; }
+  .list { margin-top: 10pt; } .list li { padding: 4pt 0; grid-template-columns: 8rem 1fr; }
+  .work-grid { display: block; padding: 0; }
+  .work-grid[data-n="3"] > :nth-child(even) { margin-top: 0; }
+  .piece { display: block; margin: 0 0 10pt; break-inside: avoid; }
+  .piece .meta { display: block; margin: 0; text-align: left; }
+  .piece .no { margin-right: 6pt; } .piece .title { font-size: 12pt; } .piece .year { margin-left: 6pt; color: var(--muted); }
+  .piece .kind { text-align: left; margin: 0; }
+  .print-cs p { margin: 2pt 0 0; } .print-cs b { font-weight: 600; }
+  .why-stage { display: block; }
+  .ichigo { text-align: left; padding: 0; }
+  .ichigo .read { margin: 0; } .ichigo .lead { margin: 4pt 0 0; font-size: 11pt; max-width: none; }
+  .principles { display: block; margin-top: 8pt; }
+  .principle, .principle:nth-child(2), .principle:nth-child(3) { break-inside: avoid; margin: 0 0 6pt; }
+  .principle .pread { margin: 0; } .principle h3 { margin: 2pt 0; font-size: 11pt; } .principle p.tx { margin: 0; max-width: none; }
+  a { color: inherit; text-decoration: none; }
 }
 </style>
 </head>
@@ -437,7 +526,7 @@ footer .note { max-width: 46ch; }
 
 <header class="top veiled" id="top-bar">
   <div class="in">
-    <a class="mark" href="#top"><i aria-hidden="true"></i><span data-pf="name">Your Name</span></a>
+    <a class="mark" href="#top"><i aria-hidden="true"></i><span data-pf="name">Sivvala Komal Naidu</span></a>
     <nav aria-label="Sections">
       <a href="#work">Work</a><a href="#why">Why</a><a href="#about">About</a><a href="#contact">Contact</a>
       <button class="snd" id="snd" type="button" aria-pressed="false"><span class="bars" aria-hidden="true"><i></i><i></i><i></i></span><span id="snd-l">Sound off</span></button>
@@ -454,10 +543,11 @@ footer .note { max-width: 46ch; }
     <div class="wrap hero-in" id="hero-in">
       <p class="motto" lang="ja" id="motto"></p>
       <div class="t" id="hero-text">
-        <h1 data-pf="name">Your Name</h1>
+        <h1 data-pf="name">Sivvala Komal Naidu</h1>
         <p class="role"><span data-pf="role">Java full stack developer</span><span id="city"></span></p>
         <p class="intro-line" data-pf="intro"></p>
         <p class="avail" data-pf="availability" data-pf-hide></p>
+        <p class="print-only" id="print-contact"></p>
         <span class="motto-en" id="motto-en"></span>
       </div>
       <div class="enso drawing" id="enso" aria-hidden="true">
@@ -619,8 +709,8 @@ footer .note { max-width: 46ch; }
     </section>
 
     <footer>
-      <span><span data-pf="name">Your Name</span> ・ <span id="time"></span></span>
-      <span class="note">Made by hand. No trackers, no cookies. The sounds are made in your browser; nothing is downloaded.</span>
+      <span><span data-pf="name">Sivvala Komal Naidu</span> ・ <span id="time"></span><span id="updated" hidden></span></span>
+      <span class="note">Made by hand. No cookies. The sounds and the type are served from this page; Umami counts visits without personal data.</span>
     </footer>
   </div>
 </main>
@@ -636,7 +726,7 @@ footer .note { max-width: 46ch; }
   </div>
 </dialog>
 <div class="drop" id="drop" aria-hidden="true"></div>
-<noscript><p style="padding:16px">Sivvala Komal Naidu, software developer. Email: sivvalakomalnaidu@gmail.com. This page needs JavaScript to show the projects.</p></noscript>
+<noscript><p style="padding:16px">Sivvala Komal Naidu, Java full stack developer (Spring Boot, Kafka, Elasticsearch, React). Email: sivvalakomalnaidu@gmail.com. This page needs JavaScript to show the projects.</p></noscript>
 
 <script src="content.js"></script>
 <script src="shared.js"></script>
@@ -658,10 +748,59 @@ const K = (function () {
            scene: { lift: 0, rain: 1, mist: 1, day: 0, clear: 1, stage: 0 } };
 })();
 
+// ---------- The count: what this page tells Umami, and the ?from= tag on shared links ----------
+// Pageviews are the tracker's own. This adds: the tag on a shared link (?from=linkedin, ?from=<company>), sent once as
+// the event "from" and then taken off the address; each station reached, once ("reach-work" ... "reach-contact"); a
+// case study opened; the sound turned on; the email, copy, GitHub, LinkedIn and project links; and "leave", sent once
+// when the tab is first hidden or closed, with the time the page was in view (in bands) and the farthest station.
+// Nothing here names the visitor. Events wait in a short queue until the tracker has loaded; if it never loads
+// (blocked, offline), they are dropped.
+const Count = (function () {
+  const q = [], order = ["work", "why", "about", "contact"], seen = new Set();
+  let far = -1, shown = 0, since = document.visibilityState === "hidden" ? -1 : performance.now(), left = false;
+  const ready = () => !!(window.umami && typeof window.umami.track === "function");
+  const send = (name, data) => { try { window.umami.track(name, data); } catch (e) {} };
+  function hit(name, data) { if (ready()) send(name, data); else if (q.length < 24) q.push([name, data]); }
+  const tag = document.querySelector("script[data-website-id]");
+  if (tag) tag.addEventListener("load", () => { while (q.length) send(...q.shift()); });
+  // The tag on a shared link
+  const raw = K.params.get("from") || K.params.get("utm_source") || K.params.get("ref") || "";
+  const source = raw.toLowerCase().replace(/[^a-z0-9._ -]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 40);
+  if (source) hit("from", { source });
+  const rest = new URLSearchParams(location.search); let changed = false;
+  for (const k of Array.from(rest.keys())) if (k === "from" || k === "ref" || k === "me" || k.startsWith("utm_")) { rest.delete(k); changed = true; }
+  if (changed) { try { history.replaceState(history.state, "", location.pathname + (String(rest) ? "?" + rest : "") + location.hash); } catch (e) {} }
+  // Stations, each once, when the heading is half in view
+  const io = new IntersectionObserver((es) => es.forEach((e) => { if (!e.isIntersecting) return; io.unobserve(e.target);
+    const name = e.target.dataset.station; if (seen.has(name)) return; seen.add(name); far = Math.max(far, order.indexOf(name)); hit("reach-" + name); }), { threshold: 0.5 });
+  order.forEach((name) => { const el = document.getElementById(name + "-h"); if (el) { el.dataset.station = name; io.observe(el); } });
+  // Links and buttons
+  const names = { mail: "click-email", copy: "copy-email", gh: "click-github", li: "click-linkedin" };
+  document.addEventListener("click", (e) => { const el = e.target.closest("a, button"); if (!el) return;
+    if (names[el.id]) hit(names[el.id]); else if (el.closest("#sheet-link")) hit("click-project", { project: document.getElementById("sheet-title").textContent }); });
+  // Time in view, sent once
+  function leave() {
+    if (left) return; left = true;
+    if (since >= 0) { shown += performance.now() - since; since = -1; }
+    const s = shown / 1000, stayed = s < 10 ? "under 10 s" : s < 30 ? "10-30 s" : s < 60 ? "30-60 s" : s < 120 ? "1-2 min" : s < 300 ? "2-5 min" : s < 600 ? "5-10 min" : "over 10 min";
+    hit("leave", { stayed, reached: far < 0 ? "hero" : order[far] });
+  }
+  document.addEventListener("visibilitychange", () => { if (document.visibilityState === "hidden") leave(); else if (since < 0 && !left) since = performance.now(); });
+  window.addEventListener("pagehide", leave);
+  return { hit, leave, pending: () => q.length, reached: () => Array.from(seen) };
+})();
+
 // ---------- Content ----------
 (function () {
   const D = window.PORTFOLIO, esc = PF.esc;
   PF.fillText(D);
+  document.title = [D.name, D.role].filter(Boolean).join(", ");
+  const up = document.getElementById("updated");
+  if (D.updated && up) { up.textContent = "Updated " + new Date(D.updated + "T12:00:00").toLocaleDateString("en-GB", { month: "long", year: "numeric" }); up.hidden = false; }
+  // The print-only contact line under the name: email, GitHub, LinkedIn and this site's own address
+  const bare = (s) => String(s).replace(/^(mailto:|https?:\/\/)(www\.)?/, "").replace(/\/$/, "");
+  document.getElementById("print-contact").textContent = [D.email, (D.links || {}).github, (D.links || {}).linkedin,
+    /^https?:$/.test(location.protocol) ? location.host + location.pathname.replace(/index\.html$/, "") : ""].filter(Boolean).map(bare).join(" ・ ");
   if (D.city) document.getElementById("city").textContent = ", " + D.city;
   document.getElementById("seal").textContent = D.initials || "";
   if (D.motto && D.motto.jp) {
@@ -684,6 +823,7 @@ const K = (function () {
       <div class="win ${bell ? "bell" : "round"}"><div class="img">${PF.cover(p, i)}<i class="depth"></i></div>${bell ? bellFrame : roundFrame}</div>
       <div class="meta"><span class="no">${no(i)}</span><span class="title">${esc(p.title)}</span><span class="year">${esc(p.year)}</span></div>
       <p class="kind">${esc(p.kind)}</p>
+      <div class="print-cs">${p.summary ? `<p>${esc(p.summary)}</p>` : ""}${[["Problem", p.problem], ["My role", p.role], ["Outcome", p.outcome]].filter(([, v]) => v).map(([l, v]) => `<p><b>${l}.</b> ${esc(v)}</p>`).join("")}</div>
     </button>`; }).join("");
 
   // Case study (native dialog: focus trap, Escape and inert page come for free)
@@ -694,6 +834,7 @@ const K = (function () {
     const b = e.target.closest(".piece"); if (!b) return;
     const i = Number(b.dataset.i), p = D.projects[i];
     opener = b;
+    Count.hit("open-case-study", { project: p.title });
     document.getElementById("sheet-kind").textContent = [no(i), p.kind, p.year].filter(Boolean).join(" ・ ");
     document.getElementById("sheet-title").textContent = p.title;
     document.getElementById("sheet-cover").innerHTML = PF.cover(p, i);
@@ -1337,7 +1478,7 @@ const Garden = (function () {
   function show(on) { btn.setAttribute("aria-pressed", on ? "true" : "false"); label.textContent = on ? "Sound on" : "Sound off"; }
   async function turnOn() { const ok = await Garden.start(); show(ok); if (ok) store.set("pfSound", "on"); return ok; }
   function turnOff() { Garden.stop(); show(false); store.set("pfSound", "off"); }
-  btn.addEventListener("click", () => { if (Garden.isOn()) { Garden.pluck(0.84); turnOff(); } else { turnOn().then((ok) => ok && Garden.pluck(1.26)); } hideHint(true); });
+  btn.addEventListener("click", () => { if (Garden.isOn()) { Garden.pluck(0.84); turnOff(); } else { turnOn().then((ok) => { if (ok) { Garden.pluck(1.26); Count.hit("sound-on"); } }); } hideHint(true); });
   Garden.hooks.pour = () => { if (K.reduced()) return; sozu.classList.remove("knock"); sozu.classList.add("pour"); };
   Garden.hooks.knock = () => {
     btn.classList.remove("ping"); void btn.offsetWidth; btn.classList.add("ping");
@@ -1360,7 +1501,7 @@ const Garden = (function () {
     if (store.get("pfHint") || store.get("pfSound") || K.params.has("nointro")) return;
     hint.classList.add("show"); hintTimer = setTimeout(() => hideHint(false), 9000);
   };
-  document.getElementById("hint-yes").addEventListener("click", () => { turnOn().then((ok) => ok && Garden.pluck(1.26)); hideHint(true); });
+  document.getElementById("hint-yes").addEventListener("click", () => { turnOn().then((ok) => { if (ok) { Garden.pluck(1.26); Count.hit("sound-on"); } }); hideHint(true); });
   document.getElementById("hint-no").addEventListener("click", () => hideHint(true));
   // UI sounds: a brush on hover, a pluck on press
   document.addEventListener("pointerover", (e) => { if (e.target.closest("a, button")) Garden.hover(); });
@@ -1469,7 +1610,7 @@ const Garden = (function () {
   relayout();
 })();
 
-window.PF_K = { Garden, Paint, K, Scene, Path };
+window.PF_K = { Garden, Paint, K, Scene, Path, Count };
 </script>
 </body>
 </html>

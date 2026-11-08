@@ -14,6 +14,7 @@ window.PORTFOLIO = {
   links: { github: "https://github.com/komalsivvala", linkedin: "https://www.linkedin.com/in/sivvalakomalnaidu" },
   coverHints: false, // true shows "Cover image, 1600 x 1000" on covers that have no image yet
   availability: "Looking for a Java full stack developer role.",
+  updated: "2026-11-08", // last content change; the footer shows the month. `node tool/stamp.mjs` sets it.
 
   // The vertical motto beside the name. Keep it to one short phrase.
   motto: { jp: "七転び八起き", reading: "nana korobi ya oki", en: "Fall seven times, stand up eight." },
