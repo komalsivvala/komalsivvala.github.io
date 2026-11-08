@@ -763,6 +763,9 @@ const Count = (function () {
   function hit(name, data) { if (ready()) send(name, data); else if (q.length < 24) q.push([name, data]); }
   const tag = document.querySelector("script[data-website-id]");
   if (tag) tag.addEventListener("load", () => { while (q.length) send(...q.shift()); });
+  // The owner's browser ("?me" in the head set Umami's own umami.disabled flag): the footer says so, since nothing else would show it
+  let mine = false; try { mine = !!localStorage.getItem("umami.disabled"); } catch (e) {}
+  if (mine) { const n = document.querySelector("footer .note"); if (n) n.textContent += " This browser is left out of the count."; }
   // The tag on a shared link
   const raw = K.params.get("from") || K.params.get("utm_source") || K.params.get("ref") || "";
   const source = raw.toLowerCase().replace(/[^a-z0-9._ -]+/g, " ").replace(/\s+/g, " ").trim().slice(0, 40);
