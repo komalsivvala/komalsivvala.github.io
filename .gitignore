@@ -1,0 +1,8 @@
+# Only the site itself goes to the host. Working notes and tools stay on this machine.
+BRIEF.md
+DESIGN-DNA.md
+README.md
+tool/
+design/
+Thumbs.db
+.DS_Store
